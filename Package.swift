@@ -28,7 +28,7 @@ let package = Package(
     ],
     dependencies: [
         .package(url: "https://github.com/onevcat/Kingfisher.git", from: "8.0.0"),
-        .package(url: "https://github.com/nice-devone/nice-cxone-mobile-sdk-ios.git", from: "3.0.0-rc"),
+        .package(url: "https://github.com/customer-dynamics/nice-cxone-mobile-sdk-ios.git", branch: "feature/release"),
         .package(url: "https://github.com/nice-devone/nice-cxone-mobile-guide-utility-ios.git", from: "3.0.0-rc")
     ],
     targets: [
